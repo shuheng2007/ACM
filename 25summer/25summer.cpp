@@ -22,15 +22,15 @@ static void solve()
     }
 }
 
-//int main()
-//{
-//    cin >> n;
-//    for (int i = 0; i < n; i++)
-//        cin >> w[i];
-//    for (int i = 0; i < n; i++)
-//        cin >> v[i];
-//    cin >> W;
-//    solve();
-//    cout << dp[n][W] << endl;
-//}
+int main()
+{
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        cin >> w[i];
+    for (int i = 0; i < n; i++)
+        cin >> v[i];
+    cin >> W;
+    solve();
+    cout << dp[n][W] << endl;
+}
 
