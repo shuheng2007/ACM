@@ -21,5 +21,23 @@
     <ClCompile Include="LCS.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fullpack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expedition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fence_repair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adjacency_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="poj_1182.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
