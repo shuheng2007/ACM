@@ -39,5 +39,17 @@
     <ClCompile Include="poj_1182.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lg_p2097.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lg_p2661.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lg_p2661(2).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lg_p2661(3).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
