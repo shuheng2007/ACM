@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="赛题">
+      <UniqueIdentifier>{b00f40c3-0ac8-42e2-96a9-e6b1b090d907}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="25summer.cpp">
@@ -36,20 +39,26 @@
     <ClCompile Include="adjacency_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="poj_1182.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="lg_p2097.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="lg_p2661.cpp">
-      <Filter>源文件</Filter>
+      <Filter>赛题</Filter>
     </ClCompile>
     <ClCompile Include="lg_p2661(2).cpp">
-      <Filter>源文件</Filter>
+      <Filter>赛题</Filter>
     </ClCompile>
     <ClCompile Include="lg_p2661(3).cpp">
-      <Filter>源文件</Filter>
+      <Filter>赛题</Filter>
+    </ClCompile>
+    <ClCompile Include="lg_p2661.cpp">
+      <Filter>赛题</Filter>
+    </ClCompile>
+    <ClCompile Include="poj_1182.cpp">
+      <Filter>赛题</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_2128a.cpp">
+      <Filter>赛题</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_2128b.cpp">
+      <Filter>赛题</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

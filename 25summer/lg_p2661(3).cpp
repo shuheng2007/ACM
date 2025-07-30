@@ -1,7 +1,6 @@
 #define		_CRT_SECURE_NO_WARNINGS
 #include	<cstdio>
 #include	<algorithm>
-#include	<queue>
 #include	<vector>
 #define		MAX_N 200001
 
@@ -29,23 +28,22 @@ static int solve()
 	}
 
 	for (int i = 0; i < n; i++) {
+
 		vertex* pt = array + i;
+		if (pt->viewed) continue;
+		else pt->viewed = 1;
 
-		if (pt->viewed)
-			continue;
-
+		int count = n;
 		vector<vertex*> vp;
 		vp.push_back(pt);
-		int count = 1;
 
 		while (pt = pt->to) {
 			if (pt->viewed) {
-				for (vertex** it = &vp[0]; it < &vp[0] + vp.size(); it++) {
+				for (vertex** it = &vp[0]; it < &vp[0] + vp.size(); it++)
 					if (*it == pt) {
 						count = vp.size() - (it - &vp[0]);
 						break;
 					}
-				}
 				break;
 			}
 			vp.push_back(pt);

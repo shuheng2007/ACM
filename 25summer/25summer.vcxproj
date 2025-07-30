@@ -132,6 +132,15 @@
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="cf_2128a.cpp">
+      <SubType>
+      </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="cf_2128b.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="expedition.cpp">
       <SubType>
       </SubType>
@@ -161,6 +170,7 @@
     <ClCompile Include="lg_p2661(3).cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="lg_p2661.cpp">
       <SubType>
