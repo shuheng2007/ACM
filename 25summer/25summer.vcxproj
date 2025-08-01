@@ -150,6 +150,11 @@
     <ClCompile Include="cf_2128d.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="cf_p2128d(2).cpp">
+      <SubType>
+      </SubType>
     </ClCompile>
     <ClCompile Include="expedition.cpp">
       <SubType>

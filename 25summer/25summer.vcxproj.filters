@@ -66,5 +66,8 @@
     <ClCompile Include="cf_2128d.cpp">
       <Filter>赛题</Filter>
     </ClCompile>
+    <ClCompile Include="cf_p2128d(2).cpp">
+      <Filter>赛题</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
